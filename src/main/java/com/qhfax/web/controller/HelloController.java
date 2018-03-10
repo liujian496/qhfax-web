@@ -12,7 +12,7 @@ public class HelloController {
 
     @RequestMapping("/hello")
     public String sayHello(){
-        String str = "Hello, qhfax-web-3, appname=[" + appName + "]";
+        String str = "Hello, qhfax-web-5, appname=[" + appName + "]";
         return str;
     }
 }
